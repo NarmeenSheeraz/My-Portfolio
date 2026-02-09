@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syeda Narmeen Sheeraz | Frontend Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold gradient-text" href="#">SN.</a>
+            <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link btn-contact" href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7" data-aos="fade-right">
+                    <h3 class="text-uppercase text-light-accent mb-3">Hello, I'm</h3>
+                    <h1 class="display-3 fw-bold text-white mb-2">Syeda Narmeen Sheeraz</h1>
+                    <h2 class="text-gradient fw-semibold mb-4">Frontend Developer | CS Student</h2>
+                    <p class="lead text-white-50 mb-5 w-75">I build modern, responsive, and visually stunning
+                        interactive websites. Passionate about crafting beautiful user experiences with code.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#projects" class="btn btn-primary-custom btn-lg">View Projects <i
+                                class="fas fa-arrow-right ms-2"></i></a>
+                        <a href="#contact" class="btn btn-outline-custom btn-lg">Contact Me</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center mt-5 mt-lg-0" data-aos="fade-left">
+                    <div class="hero-img-container">
+                        <!-- Placeholder for hero image or 3D element -->
+                        <div class="floating-circle"></div>
+                        <img src="https://via.placeholder.com/500x500/101010/333333?text=SN" alt="Profile"
+                            class="img-fluid hero-img rounded-circle border-gradient">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Background Elements -->
+        <div class="bg-shape shape-1"></div>
+        <div class="bg-shape shape-2"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up">
+                    <div class="about-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="About Me" class="img-fluid rounded-4 shadow-lg glass-card">
+                    </div>
+                </div>
+                <div class="col-lg-7 order-1 order-lg-2 ps-lg-5 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                    <h4 class="text-accent text-uppercase ls-2">About Me</h4>
+                    <h2 class="section-title text-white mb-4">Passionate about <span class="text-gradient">Technology &
+                            Design</span></h2>
+                    <p class="text-white-50 mb-4">Hi! I'm Syeda Narmeen Sheeraz, a Computer Science Student and a
+                        passionate Frontend Developer. My journey in tech started with a curiosity for how websites
+                        work, which quickly turned into a love for coding and design.</p>
+                    <p class="text-white-50 mb-4">I specialize in building clean, modern, and responsive interfaces
+                        using the latest web technologies. As a CS student, I combine my theoretical knowledge with
+                        practical skills to solve real-world problems through code.</p>
+
+                    <div class="row mt-4">
+                        <div class="col-md-6 mb-3">
+                            <div class="info-card glass-card p-3 rounded-3 d-flex align-items-center">
+                                <div class="icon-box me-3"><i class="fas fa-graduation-cap"></i></div>
+                                <div>
+                                    <h6 class="text-white m-0">Education</h6>
+                                    <small class="text-white-50">Computer Science Student</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="info-card glass-card p-3 rounded-3 d-flex align-items-center">
+                                <div class="icon-box me-3"><i class="fas fa-code"></i></div>
+                                <div>
+                                    <h6 class="text-white m-0">Experience</h6>
+                                    <small class="text-white-50">Frontend Development</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-darker">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h4 class="text-accent text-uppercase ls-2">My Skills</h4>
+                <h2 class="section-title text-white">What I Bringing to the <span class="text-gradient">Table</span>
+                </h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <!-- Skill Card 1 -->
+                <div class="col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="skill-card glass-card text-center p-4 rounded-4 h-100">
+                        <div class="skill-icon text-orange mb-3"><i class="fab fa-html5 fa-3x"></i></div>
+                        <h4 class="text-white">HTML5</h4>
+                        <div class="progress mt-3">
+                            <div class="progress-bar bg-gradient-orange" role="progressbar" style="width: 95%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 2 -->
+                <div class="col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="skill-card glass-card text-center p-4 rounded-4 h-100">
+                        <div class="skill-icon text-blue mb-3"><i class="fab fa-css3-alt fa-3x"></i></div>
+                        <h4 class="text-white">CSS3</h4>
+                        <div class="progress mt-3">
+                            <div class="progress-bar bg-gradient-blue" role="progressbar" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 3 -->
+                <div class="col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="skill-card glass-card text-center p-4 rounded-4 h-100">
+                        <div class="skill-icon text-purple mb-3"><i class="fab fa-bootstrap fa-3x"></i></div>
+                        <h4 class="text-white">Bootstrap 5</h4>
+                        <div class="progress mt-3">
+                            <div class="progress-bar bg-gradient-purple" role="progressbar" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 4 -->
+                <div class="col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="skill-card glass-card text-center p-4 rounded-4 h-100">
+                        <div class="skill-icon text-yellow mb-3"><i class="fab fa-js fa-3x"></i></div>
+                        <h4 class="text-white">JavaScript</h4>
+                        <div class="progress mt-3">
+                            <div class="progress-bar bg-gradient-yellow" role="progressbar" style="width: 30%"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill Card 5 
+                 <div class="col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="skill-card glass-card text-center p-4 rounded-4 h-100">
+                        <div class="skill-icon text-cyan mb-3"><i class="fab fa-react fa-3x"></i></div>
+                        <h4 class="text-white">React (Basic)</h4>
+                        <div class="progress mt-3">
+                            <div class="progress-bar bg-gradient-cyan" role="progressbar" style="width: 60%"></div>
+                        </div>
+                    </div> -->
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h4 class="text-accent text-uppercase ls-2">Portfolio</h4>
+                <h2 class="section-title text-white">Latest <span class="text-gradient">Projects</span></h2>
+            </div>
+
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="flip-left" data-aos-delay="100">
+                    <div class="project-card glass-card rounded-4 overflow-hidden h-100">
+                        <div class="project-img position-relative overflow-hidden">
+                            <!-- Using a placeholder pattern as project image -->
+                            <div class="img-placeholder bg-project-1 d-flex align-items-center justify-content-center"
+                                style="height: 200px;">
+                                <i class="fas fa-laptop-code fa-3x text-white-50"></i>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                                <a href="https://github.com/syedanarmeen" target="_blank"
+                                    class="btn btn-light rounded-pill btn-sm mb-2"><i class="fab fa-github me-1"></i>
+                                    View Code</a>
+                                <a href="#" class="btn btn-outline-light rounded-pill btn-sm"><i
+                                        class="fas fa-external-link-alt me-1"></i> Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-content p-4">
+                            <h5 class="text-white fw-bold mb-2">Portfolio Website</h5>
+                            <p class="text-white-50 small mb-3">A personal portfolio website to showcase skills and
+                                projects. Built with modern UI principles.</p>
+                            <div class="tech-stack">
+                                <span class="badge glass-badge me-1">HTML</span>
+                                <span class="badge glass-badge me-1">CSS</span>
+                                <span class="badge glass-badge">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="flip-left" data-aos-delay="200">
+                    <div class="project-card glass-card rounded-4 overflow-hidden h-100">
+                        <div class="project-img position-relative overflow-hidden">
+                            <div class="img-placeholder bg-project-2 d-flex align-items-center justify-content-center"
+                                style="height: 200px;">
+                                <i class="fas fa-shopping-cart fa-3x text-white-50"></i>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                                <a href="https://github.com/syedanarmeen" target="_blank"
+                                    class="btn btn-light rounded-pill btn-sm mb-2"><i class="fab fa-github me-1"></i>
+                                    View Code</a>
+                                <a href="#" class="btn btn-outline-light rounded-pill btn-sm"><i
+                                        class="fas fa-external-link-alt me-1"></i> Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-content p-4">
+                            <h5 class="text-white fw-bold mb-2">E-Commerce UI</h5>
+                            <p class="text-white-50 small mb-3">Responsive product cards and shopping cart interface
+                                design with hover effects.</p>
+                            <div class="tech-stack">
+                                <span class="badge glass-badge me-1">HTML</span>
+                                <span class="badge glass-badge me-1">CSS</span>
+                                <span class="badge glass-badge">JS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="flip-left" data-aos-delay="300">
+                    <div class="project-card glass-card rounded-4 overflow-hidden h-100">
+                        <div class="project-img position-relative overflow-hidden">
+                            <div class="img-placeholder bg-project-3 d-flex align-items-center justify-content-center"
+                                style="height: 200px;">
+                                <i class="fas fa-cloud-sun fa-3x text-white-50"></i>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                                <a href="https://github.com/syedanarmeen" target="_blank"
+                                    class="btn btn-light rounded-pill btn-sm mb-2"><i class="fab fa-github me-1"></i>
+                                    View Code</a>
+                                <a href="#" class="btn btn-outline-light rounded-pill btn-sm"><i
+                                        class="fas fa-external-link-alt me-1"></i> Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-content p-4">
+                            <h5 class="text-white fw-bold mb-2">Weather App Dashboard</h5>
+                            <p class="text-white-50 small mb-3">A clean weather dashboard showing current conditions and
+                                forecast data using API.</p>
+                            <div class="tech-stack">
+                                <span class="badge glass-badge me-1">JS</span>
+                                <span class="badge glass-badge me-1">API</span>
+                                <span class="badge glass-badge">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="https://github.com/syedanarmeen" target="_blank" class="btn btn-outline-custom btn-lg">View All
+                    Projects <i class="fab fa-github ms-2"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-darker position-relative">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5" data-aos="fade-up">
+                    <h4 class="text-accent text-uppercase ls-2">Contact Me</h4>
+                    <h2 class="section-title text-white">Let's Work <span class="text-gradient">Together</span></h2>
+                    <p class="text-white-50 mt-3">Have a project in mind or just want to say hi? Feel free to reach out
+                        to me!</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="glass-card p-5 rounded-5" data-aos="zoom-in-up">
+                        <div class="row">
+                            <div class="col-md-5 mb-5 mb-md-0 border-end-md border-secondary">
+                                <h3 class="text-white fw-bold mb-4">Get in Touch</h3>
+                                <div class="d-flex align-items-center mb-4 contact-item">
+                                    <div class="icon-box-sm bg-gradient-purple rounded-circle text-white me-3">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="text-white-50 m-0">Email Me</h6>
+                                        <a href="mailto:contact@syedanarmeen.com"
+                                            class="text-white text-decoration-none">contact@example.com</a>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center mb-4 contact-item">
+                                    <div class="icon-box-sm bg-gradient-blue rounded-circle text-white me-3">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="text-white-50 m-0">LinkedIn</h6>
+                                        <a href="#" class="text-white text-decoration-none">syeda-narmeen</a>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center contact-item">
+                                    <div class="icon-box-sm bg-gradient-orange rounded-circle text-white me-3">
+                                        <i class="fab fa-github"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="text-white-50 m-0">GitHub</h6>
+                                        <a href="https://github.com/syedanarmeen" target="_blank"
+                                            class="text-white text-decoration-none">syedanarmeen</a>
+                                    </div>
+                                </div>
+
+                                <div class="social-links mt-5 d-flex gap-3">
+                                    <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+                                    <a href="#" class="social-btn"><i class="fab fa-dribbble"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-7 ps-md-5">
+                                <form id="contactForm">
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label text-white-50">Your Name</label>
+                                        <input type="text" class="form-control glass-input" id="name" required
+                                            placeholder="John Doe">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label text-white-50">Email Address</label>
+                                        <input type="email" class="form-control glass-input" id="email" required
+                                            placeholder="name@example.com">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="message" class="form-label text-white-50">Message</label>
+                                        <textarea class="form-control glass-input" id="message" rows="4" required
+                                            placeholder="Your message here..."></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary-custom w-100">Send Message <i
+                                            class="fas fa-paper-plane ms-2"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4 text-center">
+        <div class="container">
+            <p class="text-white-50 m-0">&copy; 2026 Syeda Narmeen Sheeraz. All Rights Reserved.</p>
+            <small class="text-white-50">Built with <i class="fas fa-heart text-danger"></i> & Bootstrap 5</small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
